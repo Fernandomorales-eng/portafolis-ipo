@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte - Fernando</title>
+</head>
+<body>
+
+    <header>
+        <h1>Formulari de Contacte</h1>
+        <nav>
+            <strong>Navegació:</strong>
+            <a href="index.html">Inici</a> | 
+            <a href="activitats.html">Activitats</a> | 
+            <a href="contacte.html">Contacte</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <h2>Posa't en contacte amb mi</h2>
+            <p>Omple aquest formulari si me vols contactar</p>
+
+            <form>
+                
+                <p>
+                    <label for="nom_contacte">Nom:</label><br>
+                    <input type="text" id="nom_contacte" name="nom_contacte" required>
+                </p>
+
+                <p>
+                    <label for="cognom_contacte">Cognom:</label><br>
+                    <input type="text" id="cognom_contacte" name="cognom_contacte" required>
+                </p>
+
+                <p>
+                    <label for="empresa_contacte">Empresa:</label><br>
+                    <input type="text" id="empresa_contacte" name="empresa_contacte">
+                </p>
+
+                <p>
+                    <label for="telf_contacte">Telèfon:</label><br>
+                    <input type="tel" id="telf_contacte" name="telf_contacte" required>
+                </p>
+
+                <p>
+                    <label for="email_contacte">Correu electrònic:</label><br>
+                    <input type="email" id="email_contacte" name="email_contacte" required>
+                </p>
+
+                <p>
+                    <label for="msg_contacte">Missatge:</label><br>
+                    <textarea id="msg_contacte" name="msg_contacte" rows="5" cols="40" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">reset</button>
+                </p>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Portafolis fet per Fernando Morales</p>
+    </footer>
+
+</body>
+</html>
